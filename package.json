@@ -1,0 +1,40 @@
+{
+  "name": "travus-backend",
+  "version": "1.0.0",
+  "description": "travus backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.7",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.2",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-react": "^7.18.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  }
+}
